@@ -3,7 +3,8 @@ const express = require('express')
 const app = express();
 const cors = require("cors")
 const bodyParser = require("body-parser")
-    origin:['https://got-gains.herokuapp.com/', 'http://localhost:3000'] , 
+const corsOptions = {
+    origin:['https://got-gains.herokuapp.com/', 'http://localhost:3000'], 
     credentials:true,  
     optionSuccessStatus:200,
 }
