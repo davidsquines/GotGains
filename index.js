@@ -4,7 +4,7 @@ const app = express();
 const cors = require("cors")
 const bodyParser = require("body-parser")
 const corsOptions = {
-    origin:['https://got-gains.herokuapp.com/', 'http://localhost:3000', 'https://gotgains.netlify.app/'], 
+    origin:['https://got-gains.herokuapp.com/', 'http://localhost:3000', 'https://gotgains.netlify.app'], 
     credentials:true,  
     optionSuccessStatus:200,
 }
